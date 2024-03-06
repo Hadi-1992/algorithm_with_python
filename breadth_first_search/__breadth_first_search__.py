@@ -21,7 +21,7 @@ def bfs_find_name(graph, start_node):
                     break
 
         neighbors = graph.get(node)
-        if neighbors:   
+        if neighbors:
             for neighbor in neighbors:
                 if neighbor not in visited:
                     queue.append(neighbor)
